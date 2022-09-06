@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "NowShowing";
+    Layout = "~/Views/Shared/_Admin_Layout.cshtml";
+}
+
+<div class="w-full py-56 bg-cover  bg-no-repeat bg-center relative z-10" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Content/Pics/hero.jpg);">
+
+    <div class="container max-w-4xl mx-auto text-center">
+        <h1 class="text-xl font-bold leading-tight md:text-3xl text-center text-gray-100 mb-3">NOW SHOWING</h1>
+    </div>
+
+</div>
+<hr class="border-2 border-pink-500 rounded-2xl" />
+
+
+
+@* HEADING AND BUTTONS SECTION STARTS *@
+@* Mid heading starts *@
+<hr class="border-2 border-pink-500 rounded-2xl" />
+
+<section class="text-gray-600 mt-10">
+    <div class="grid justify-self-stretch">
+        <a class="justify-self-center text-xl font-semibold hover:bg-gray-200" href="/Admin/AddMovie">
+            <button class="rounded-lg border-2 p-4 content-center border-pink-200 border-l-4 border-l-pink-500">Add Now Shoing Movie!</button>
+        </a>
+    </div>
+</section>
+@* Mid heading ends *@
+@* HEADING AND BUTTONS SECTION ENDS*@   
+

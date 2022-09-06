@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "Bookings";
+    Layout = "~/Views/Shared/_Admin_Layout.cshtml";
+}
+
+<div class="w-full py-56 bg-cover  bg-no-repeat bg-center relative z-10" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Content/Pics/hero.jpg);">
+
+    <div class="container max-w-4xl mx-auto text-center">
+        <h1 class="text-xl font-bold leading-tight md:text-3xl text-center text-gray-100 mb-3">BOOKINGS</h1>
+    </div>
+
+</div>
+<hr class="border-2 border-pink-500 rounded-2xl" />
+
+
+@* Tables section starts *@
+<div class="grid grid-cols-2 gap-4">
+    @* table 1 *@
+    <div class="overflow-x-auto relative">
+        <p class="text-center font-bold text-xl text-gray-700 ">Screen 1 Bookings</p>
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="py-3 px-6">
+                        Product name
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Color
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Category
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Price
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Apple MacBook Pro 17"
+                    </th>
+                    <td class="py-4 px-6">
+                        Sliver
+                    </td>
+                    <td class="py-4 px-6">
+                        Laptop
+                    </td>
+                    <td class="py-4 px-6">
+                        $2999
+                    </td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Microsoft Surface Pro
+                    </th>
+                    <td class="py-4 px-6">
+                        White
+                    </td>
+                    <td class="py-4 px-6">
+                        Laptop PC
+                    </td>
+                    <td class="py-4 px-6">
+                        $1999
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Magic Mouse 2
+                    </th>
+                    <td class="py-4 px-6">
+                        Black
+                    </td>
+                    <td class="py-4 px-6">
+                        Accessories
+                    </td>
+                    <td class="py-4 px-6">
+                        $99
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    @* table 2 *@
+
+    <div class="overflow-x-auto relative">
+        <p class="text-center font-bold text-xl text-gray-700 ">Screen 2 Bookings</p>
+
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="py-3 px-6">
+                        Product name
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Color
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Category
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                        Price
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Apple MacBook Pro 17"
+                    </th>
+                    <td class="py-4 px-6">
+                        Sliver
+                    </td>
+                    <td class="py-4 px-6">
+                        Laptop
+                    </td>
+                    <td class="py-4 px-6">
+                        $2999
+                    </td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Microsoft Surface Pro
+                    </th>
+                    <td class="py-4 px-6">
+                        White
+                    </td>
+                    <td class="py-4 px-6">
+                        Laptop PC
+                    </td>
+                    <td class="py-4 px-6">
+                        $1999
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        Magic Mouse 2
+                    </th>
+                    <td class="py-4 px-6">
+                        Black
+                    </td>
+                    <td class="py-4 px-6">
+                        Accessories
+                    </td>
+                    <td class="py-4 px-6">
+                        $99
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+@* Tables section ends *@
